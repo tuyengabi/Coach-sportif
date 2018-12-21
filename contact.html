@@ -1,11 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 	<meta charset="UTF-8">
 	<title></title>
 </head>
 
 <body>
+	<header>
+		<img src="img/01logogym.png" alt="logo cross fit">
+
+		<div class="topnav">
+  			<a href="#">Accueil</a>
+  			<a href="#">À propos</a>
+			<a href="#">Tarif</a>
+			<a href="#">Inscription</a>
+			<a href="#">Contact</a>
+		</div>
+	
+	</header>
+
+
+	<main>
+		<img src="img/01logogym.png">
+		<p>
+			CrossFit<br>
+			999 rue jgdjsld gjhg<br>
+			59100 Roubaix<br>
+		</p>
+		<form>
+			Prénom :<input type="text" name="firstname"><br>
+			Nom :<input type="text" name="lastname"><br>
+			Email :<input type="text" name="email"><br>
+			<br>
+			<textarea name="Message" rows="7" cols="21"></textarea>
+			<br>
+			<input type="submit">
+		</form>
+		<br>
+		<br>
+		<div id="googleMap" style="width:50%;height:300px;"></div>
+
+		<script>
+			function myMap() {
+			var mapProp= {
+ 			 center:new google.maps.LatLng(51.508742,-0.120850),
+ 			 zoom:5,
+			};
+			var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+			}
+		</script>		
+
+		<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap">
+		</script>
+	</main>
+
+	<footer>
+		<form>
+			Veuillez indiquer le mail:<br>
+			<input type="text" name="email" value="Example@mail.com">
+			<button type="button">Valider</button>
+		</form>
+		<a href= https://www.facebook.com/bohobeautifullife><span><i class="fab fa-facebook-f"></i></span></a>
+		<a href= http://www.bohobeautiful.life><span><i class="fab fa-google"></i></span></a>
+		<a href= https://www.youtube.com/channel/UCWN2FPlvg9r-LnUyepH9IaQ><span><i class="fab fa-youtube"></i></span></a>
+		<a href= http://instagram.com/bohobeautifullife><span><i class="fab fa-instagram"></i></span></a>
+	
+	</footer>
 
 
 
