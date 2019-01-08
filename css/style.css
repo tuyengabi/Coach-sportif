@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	 }
+body{
+	width: 100vw;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+header {
+	display: block;
+	height: 15vw;
+	background-color: #A8E68A;
+}
+
+img.logo {
+	display: block;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	margin-left: auto;
+	margin-right: auto;
+	width: 140px;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+}
+
+li {
+	display: inline-block;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1rem 3rem;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+main {
+	margin: 0;
+	padding: 0;
+	background-color: #6B705F;
+	color: #99FF99;
+}
+
+
+table {
+	width: 32vw;
+	height: 38vw;
+	background: url("../img/07menu1.jpg");
+	float: left;
+}
+
+/*change the left list color to #807359 on hover*/
+table tr:hover {
+	background-color: #807359;
+	color: black;
+}
+
+
+table td {
+	text-align: center;
+	border-bottom: 1px solid #111;
+	height: 6rem;
+	font-size: 22px;
+}
+
+img.photo-presentation {
+	display: inline-block;
+	width: 68vw;
+	float: right;
+}
+
+
+
+.sub-menu {
+	display: none;
+}
+
+
