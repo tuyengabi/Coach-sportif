@@ -55,7 +55,7 @@ main {
 }
 
 
-table {
+table.list-action {
 	width: 32vw;
 	height: 38vw;
 	background: url("../img/07menu1.jpg");
@@ -63,13 +63,13 @@ table {
 }
 
 /*change the left list color to #807359 on hover*/
-table tr:hover {
+table.list-action tr:hover {
 	background-color: #807359;
 	color: black;
 }
 
 
-table td {
+table.list-action td {
 	text-align: center;
 	border-bottom: 1px solid #111;
 	height: 6rem;
@@ -88,4 +88,7 @@ img.photo-presentation {
 	display: none;
 }
 
-
+/* the page inscription */
+.inscription {
+	padding: 3rem 6rem 3rem 6rem;
+}
