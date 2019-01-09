@@ -2,12 +2,8 @@
 	margin: 0;
 	padding: 0;
 	 }
-body{
-	width: 100vw;
-	margin-top: 0;
-	margin-left: 0;
-}
 
+/* start header */
 header {
 	display: block;
 	height: 15vw;
@@ -22,10 +18,11 @@ img.logo {
 	margin-right: auto;
 	width: 140px;
 }
+
 ul {
   list-style-type: none;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgba(51, 51, 51, 0.3);
   text-align: center;
 }
 
@@ -33,19 +30,26 @@ li {
 	display: inline-block;
 }
 
-
 li a {
   display: block;
-  color: white;
+  color: #333;
   text-align: center;
   padding: 1rem 3rem;
   text-decoration: none;
+  font-size: 1.1em;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
-}
+	/* Change the link color to #333 (black) on hover */
+	li a:hover {
+		background-color: #333;
+		color: white;
+	}
+/* End header */
+
+/* Start body */
+body {
+	width: 100%;
+	}
 
 main {
 	margin: 0;
@@ -54,20 +58,20 @@ main {
 	color: #99FF99;
 }
 
-
 table.list-action {
-	width: 32vw;
-	height: 38vw;
-	background: url("../img/07menu1.jpg");
-	float: left;
+	width: 30vw;
+	height: 769px;
+	background: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	top: 15vw;
+	left: 0;
 }
 
-/*change the left list color to #807359 on hover*/
-table.list-action tr:hover {
-	background-color: #807359;
-	color: black;
-}
-
+	/*change the left list color to #807359 on hover*/
+	table.list-action tr:hover {
+		background-color: rgba(255, 255, 255, 0.2);
+		color: black;
+	}	
 
 table.list-action td {
 	text-align: center;
@@ -77,12 +81,9 @@ table.list-action td {
 }
 
 img.photo-presentation {
-	display: inline-block;
-	width: 68vw;
-	float: right;
+	width: 100vw;
+	position: relative;
 }
-
-
 
 .sub-menu {
 	display: none;
@@ -91,4 +92,28 @@ img.photo-presentation {
 /* the page inscription */
 .inscription {
 	padding: 3rem 6rem 3rem 6rem;
+}
+
+.video-flex-container {
+	display: flex;
+	padding: 5rem;
+}
+iframe.video {
+	padding: 0;
+	width: 70%;
+	height: 40vw;
+}
+div.description {
+	width: 30%;
+	padding: 0; 
+
+}
+.video-title {
+	padding-right: 0;
+	padding-left: 5rem;
+	padding-top: 3rem;
+}
+.video-text {
+	padding-right: 0;
+   padding-left: 4rem;
 }
