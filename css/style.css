@@ -125,28 +125,38 @@ div.description {
 
 .program-title {
 	position: absolute;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(0, 0, 0, 0.8);
 	text-decoration: none;
 	display: inline-block;
-	color: black;
+	color: #6B705F;
 	width: 726px;
 	height: 3vw;
 	text-align: center;
 	letter-spacing: 5px;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	margin-top: 30vw; 
 }
 
 .meal-title {
 	position: absolute;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(0, 0, 0, 0.8);
 	text-decoration: none;
 	display: inline-block;
-	color: black;
+	color: #6B705F;
 	width: 726px;
 	height: 3vw;
 	text-align: center;
 	letter-spacing: 5px;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	margin-top: 30vw; 
+}
+
+/* Change color hover program and meal */
+.program-title:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+	color: black;
+}
+.meal-title:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+	color: black;
 }
