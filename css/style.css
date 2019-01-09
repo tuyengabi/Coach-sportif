@@ -117,3 +117,36 @@ div.description {
 	padding-right: 0;
    padding-left: 4rem;
 }
+
+.program-flex-container {
+	display: flex;
+	padding-bottom: 15vw;
+}
+
+.program-title {
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+	width: 726px;
+	height: 3vw;
+	text-align: center;
+	letter-spacing: 5px;
+	font-size: 1rem;
+	margin-top: 30vw; 
+}
+
+.meal-title {
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+	width: 726px;
+	height: 3vw;
+	text-align: center;
+	letter-spacing: 5px;
+	font-size: 1rem;
+	margin-top: 30vw; 
+}
