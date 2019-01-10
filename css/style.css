@@ -16,7 +16,7 @@ img.logo {
 	padding-bottom: 0.5rem;
 	margin-left: auto;
 	margin-right: auto;
-	width: 140px;
+	width: 8.5rem;
 }
 
 ul {
@@ -160,3 +160,54 @@ div.description {
 	background-color: rgba(255, 255, 255, 0.5);
 	color: black;
 }
+/* End body */
+
+/* Start footer */
+footer {
+	display: flex;
+	height: 18vw;
+	background-color: #A8E68A;
+}
+.footer-form {
+	display: inline-block;
+	text-align: center;
+	padding-top: 3rem;
+	padding-left: 5rem;
+	font-size: 1.5rem;
+	color: rgb(51, 51, 51);
+}
+input {
+	margin: 1rem;
+	font-size: 1rem;
+}
+button {
+	width: 8rem;
+	height: 1.6rem;
+	font-size: 1rem;
+	background-color: rgba(51, 51, 51, 0.3);
+	border-radius: 4px;
+}
+
+div.social-network {
+	padding-left: 18rem;
+}
+div.social-network a {
+	display: inline-block;
+	padding-top: 4.5rem;
+	margin: 2rem;
+}
+i {
+	color: #333;
+}
+
+div.copyright {
+	display: block;
+	background-color: rgb(51, 51, 51);
+	color: white;
+	height: 3rem;
+	text-align: center;
+	line-height: 3;
+	font-size: 1rem;
+}
+
+/* End footer */
